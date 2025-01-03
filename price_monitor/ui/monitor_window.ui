@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MonitorWindow</class>
+ <widget class="QMainWindow" name="MonitorWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</x>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>股票和虛擬貨幣監控</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>310</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>10</y>
+      <width>60</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>獲取價格</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_open">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>380</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>開盤價:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_high">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>380</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>最高價:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_low">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>380</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>最低價:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_volume">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>380</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>成交量:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_currency">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>210</y>
+      <width>380</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>貨幣:</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
