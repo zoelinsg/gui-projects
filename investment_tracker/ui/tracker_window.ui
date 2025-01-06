@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>投資追蹤器</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>投資追蹤器</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="stockTickerInput">
+      <property name="placeholderText">
+       <string>輸入股票代碼</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="addStockButton">
+      <property name="text">
+       <string>添加股票</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="portfolioTable">
+      <column>
+       <property name="text">
+        <string>股票代碼</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>股數</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>購買價格</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>現價</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>貨幣</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar"/>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
