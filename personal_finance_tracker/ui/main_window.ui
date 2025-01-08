@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</x>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>個人收支追蹤應用</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QCalendarWidget" name="calendarWidget"/>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="inputLayout">
+      <item>
+       <widget class="QLabel" name="amountLabel">
+        <property name="text">
+         <string>金額:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="amountInput"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="categoryLabel">
+        <property name="text">
+         <string>類別:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="categoryInput"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="descriptionLabel">
+        <property name="text">
+         <string>描述:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="descriptionInput"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="typeLabel">
+        <property name="text">
+         <string>類型:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="typeInput">
+        <item>
+         <property name="text">
+          <string>INCOME</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>EXPENSE</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="addButton">
+      <property name="text">
+       <string>記錄收支</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="deleteButton">
+      <property name="text">
+       <string>刪除收支</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="updateButton">
+      <property name="text">
+       <string>修改收支</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="viewButton">
+      <property name="text">
+       <string>查看收支</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="exportButton">
+      <property name="text">
+       <string>匯出報表</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="tableWidget">
+      <column>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>日期</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>金額</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>類別</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>描述</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>類型</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
